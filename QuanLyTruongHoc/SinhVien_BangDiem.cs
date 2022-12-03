@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QuanLyTruongHoc
 {
-    public partial class DangKyMonHoc : Form
+    public partial class SinhVien_BangDiem : Form
     {
-        public DangKyMonHoc()
+        public SinhVien_BangDiem()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace QuanLyTruongHoc
 {
-    partial class DangKyMonHoc
+    partial class SinhVien_DangKyMonHoc
     {
         /// <summary>
         /// Required designer variable.

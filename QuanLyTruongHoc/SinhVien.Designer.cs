@@ -30,11 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SinhVien));
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btntkb = new System.Windows.Forms.Button();
+            this.btnbd = new System.Windows.Forms.Button();
+            this.btnlt = new System.Windows.Forms.Button();
+            this.btnhp = new System.Windows.Forms.Button();
+            this.btndkmh = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -49,65 +49,67 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Thông tin sinh viên";
             // 
-            // button1
+            // btntkb
             // 
-            this.button1.BackColor = System.Drawing.Color.Ivory;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.Orange;
-            this.button1.Location = new System.Drawing.Point(556, 189);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(312, 54);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Đăng ký môn học";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btntkb.BackColor = System.Drawing.Color.Ivory;
+            this.btntkb.Font = new System.Drawing.Font("Segoe UI Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btntkb.ForeColor = System.Drawing.Color.Orange;
+            this.btntkb.Location = new System.Drawing.Point(556, 285);
+            this.btntkb.Name = "btntkb";
+            this.btntkb.Size = new System.Drawing.Size(324, 54);
+            this.btntkb.TabIndex = 2;
+            this.btntkb.Text = "Thời khoá biểu";
+            this.btntkb.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnbd
             // 
-            this.button2.BackColor = System.Drawing.Color.Ivory;
-            this.button2.Font = new System.Drawing.Font("Segoe UI Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.Orange;
-            this.button2.Location = new System.Drawing.Point(556, 285);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(312, 54);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Thời khoá biểu";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnbd.BackColor = System.Drawing.Color.Ivory;
+            this.btnbd.Font = new System.Drawing.Font("Segoe UI Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnbd.ForeColor = System.Drawing.Color.Orange;
+            this.btnbd.Location = new System.Drawing.Point(556, 383);
+            this.btnbd.Name = "btnbd";
+            this.btnbd.Size = new System.Drawing.Size(324, 54);
+            this.btnbd.TabIndex = 3;
+            this.btnbd.Text = "Bảng điểm";
+            this.btnbd.UseVisualStyleBackColor = false;
+            this.btnbd.Click += new System.EventHandler(this.btnbd_Click);
             // 
-            // button3
+            // btnlt
             // 
-            this.button3.BackColor = System.Drawing.Color.Ivory;
-            this.button3.Font = new System.Drawing.Font("Segoe UI Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.Orange;
-            this.button3.Location = new System.Drawing.Point(556, 383);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(312, 54);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Bảng điểm";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnlt.BackColor = System.Drawing.Color.Ivory;
+            this.btnlt.Font = new System.Drawing.Font("Segoe UI Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnlt.ForeColor = System.Drawing.Color.Orange;
+            this.btnlt.Location = new System.Drawing.Point(556, 485);
+            this.btnlt.Name = "btnlt";
+            this.btnlt.Size = new System.Drawing.Size(324, 54);
+            this.btnlt.TabIndex = 4;
+            this.btnlt.Text = "Lịch thi";
+            this.btnlt.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnhp
             // 
-            this.button4.BackColor = System.Drawing.Color.Ivory;
-            this.button4.Font = new System.Drawing.Font("Segoe UI Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.ForeColor = System.Drawing.Color.Orange;
-            this.button4.Location = new System.Drawing.Point(556, 485);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(312, 54);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Lịch thi";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnhp.BackColor = System.Drawing.Color.Ivory;
+            this.btnhp.Font = new System.Drawing.Font("Segoe UI Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnhp.ForeColor = System.Drawing.Color.Orange;
+            this.btnhp.Location = new System.Drawing.Point(556, 590);
+            this.btnhp.Name = "btnhp";
+            this.btnhp.Size = new System.Drawing.Size(324, 55);
+            this.btnhp.TabIndex = 5;
+            this.btnhp.Text = "Học phí";
+            this.btnhp.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btndkmh
             // 
-            this.button5.BackColor = System.Drawing.Color.Ivory;
-            this.button5.Font = new System.Drawing.Font("Segoe UI Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.ForeColor = System.Drawing.Color.Orange;
-            this.button5.Location = new System.Drawing.Point(556, 590);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(312, 55);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Học phí";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btndkmh.BackColor = System.Drawing.Color.Ivory;
+            this.btndkmh.Font = new System.Drawing.Font("Segoe UI Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btndkmh.ForeColor = System.Drawing.Color.Orange;
+            this.btndkmh.Location = new System.Drawing.Point(556, 180);
+            this.btndkmh.Name = "btndkmh";
+            this.btndkmh.Size = new System.Drawing.Size(324, 54);
+            this.btndkmh.TabIndex = 6;
+            this.btndkmh.Text = "Đăng ký môn học";
+            this.btndkmh.UseVisualStyleBackColor = false;
+            this.btndkmh.Click += new System.EventHandler(this.btndkmh_Click);
             // 
             // SinhVien
             // 
@@ -117,11 +119,11 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1376, 773);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btndkmh);
+            this.Controls.Add(this.btnhp);
+            this.Controls.Add(this.btnlt);
+            this.Controls.Add(this.btnbd);
+            this.Controls.Add(this.btntkb);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -135,10 +137,10 @@
         #endregion
 
         private Label label1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
+        private Button btntkb;
+        private Button btnbd;
+        private Button btnlt;
+        private Button btnhp;
+        private Button btndkmh;
     }
 }

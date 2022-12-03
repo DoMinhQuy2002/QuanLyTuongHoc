@@ -4,9 +4,9 @@ using System.Data.SqlClient;
 
 namespace QuanLyTruongHoc
 {
-    public partial class Form1 : Form
+    public partial class DangNhap : Form
     {
-        public Form1()
+        public DangNhap()
         {
             InitializeComponent();
         }
@@ -63,10 +63,10 @@ namespace QuanLyTruongHoc
             return -1;
         }
 
-        private void lldangky_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void btndangky_Click(object sender, EventArgs e)
         {
-            Taotaikhoan taotaikhoan = new Taotaikhoan();
-            taotaikhoan.Show();
+            DangKy dangKy = new DangKy();
+            dangKy.Show();
         }
     }
 }

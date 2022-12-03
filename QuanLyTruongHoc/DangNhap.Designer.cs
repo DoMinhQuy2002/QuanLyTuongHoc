@@ -1,6 +1,6 @@
 ﻿namespace QuanLyTruongHoc
 {
-    partial class Form1
+    partial class DangNhap
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DangNhap));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -37,11 +37,11 @@
             this.tbtendangnhap = new System.Windows.Forms.TextBox();
             this.tbmatkhau = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.llquenmatkhau = new System.Windows.Forms.LinkLabel();
-            this.lldangky = new System.Windows.Forms.LinkLabel();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.cbbLoai = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btndangky = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -114,28 +114,6 @@
             this.label6.TabIndex = 9;
             this.label6.Text = "Tên đăng nhập";
             // 
-            // llquenmatkhau
-            // 
-            this.llquenmatkhau.AutoSize = true;
-            this.llquenmatkhau.DisabledLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(133)))), ((int)(((byte)(133)))));
-            this.llquenmatkhau.Location = new System.Drawing.Point(181, 392);
-            this.llquenmatkhau.Name = "llquenmatkhau";
-            this.llquenmatkhau.Size = new System.Drawing.Size(109, 20);
-            this.llquenmatkhau.TabIndex = 10;
-            this.llquenmatkhau.TabStop = true;
-            this.llquenmatkhau.Text = "Quên mật khẩu";
-            // 
-            // lldangky
-            // 
-            this.lldangky.AutoSize = true;
-            this.lldangky.Location = new System.Drawing.Point(434, 392);
-            this.lldangky.Name = "lldangky";
-            this.lldangky.Size = new System.Drawing.Size(63, 20);
-            this.lldangky.TabIndex = 11;
-            this.lldangky.TabStop = true;
-            this.lldangky.Text = "Đăng ký";
-            this.lldangky.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lldangky_LinkClicked);
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -166,6 +144,25 @@
             this.cbbLoai.Size = new System.Drawing.Size(51, 28);
             this.cbbLoai.TabIndex = 15;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(225, 396);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Quên mật khẩu";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // btndangky
+            // 
+            this.btndangky.Location = new System.Drawing.Point(367, 396);
+            this.btndangky.Name = "btndangky";
+            this.btndangky.Size = new System.Drawing.Size(94, 29);
+            this.btndangky.TabIndex = 17;
+            this.btndangky.Text = "Đăng Ký";
+            this.btndangky.UseVisualStyleBackColor = true;
+            this.btndangky.Click += new System.EventHandler(this.btndangky_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -173,11 +170,11 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btndangky);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.cbbLoai);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.lldangky);
-            this.Controls.Add(this.llquenmatkhau);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.tbmatkhau);
             this.Controls.Add(this.tbtendangnhap);
@@ -203,10 +200,10 @@
         private TextBox tbtendangnhap;
         private TextBox tbmatkhau;
         private Label label6;
-        private LinkLabel llquenmatkhau;
-        private LinkLabel lldangky;
         private Label label4;
         private Label label5;
         private ComboBox cbbLoai;
+        private Button button1;
+        private Button btndangky;
     }
 }

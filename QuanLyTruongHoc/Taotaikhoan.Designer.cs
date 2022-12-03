@@ -37,6 +37,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.btnTao = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -122,11 +123,21 @@
             this.button2.Text = "Huỷ";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(330, 240);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(245, 20);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "0: Admin, 1: Giảng Viên, 2: Sinh Viên";
+            // 
             // Taotaikhoan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnTao);
             this.Controls.Add(this.label5);
@@ -154,5 +165,6 @@
         private Label label5;
         private Button btnTao;
         private Button button2;
+        private Label label4;
     }
 }
