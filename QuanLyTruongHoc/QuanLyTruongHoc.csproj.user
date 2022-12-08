@@ -4,31 +4,19 @@
     <_LastSelectedProfileId>D:\Nhom4_DoAnMonHoc\QuanLyTruongHoc\Properties\PublishProfiles\ClickOnceProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Update="Admin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="DangKy.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="DangKyGiangVien.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="DangKySinhVien.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="SinhVien_DangKyMonHoc.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="GiangVien.cs">
+    <Compile Update="QuanLyForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="SinhVien.cs">
+    <Compile Update="QuanLyGiangVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="SinhVien_BangDiem.cs">
+    <Compile Update="QuanLyMonHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QuanLySinhVien.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Taotaikhoan.cs">

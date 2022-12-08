@@ -37,11 +37,6 @@
             this.tbtendangnhap = new System.Windows.Forms.TextBox();
             this.tbmatkhau = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.cbbLoai = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btndangky = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -74,7 +69,7 @@
             // 
             // btnok
             // 
-            this.btnok.Location = new System.Drawing.Point(222, 325);
+            this.btnok.Location = new System.Drawing.Point(230, 260);
             this.btnok.Name = "btnok";
             this.btnok.Size = new System.Drawing.Size(94, 29);
             this.btnok.TabIndex = 5;
@@ -84,7 +79,7 @@
             // 
             // btnhuy
             // 
-            this.btnhuy.Location = new System.Drawing.Point(367, 325);
+            this.btnhuy.Location = new System.Drawing.Point(375, 260);
             this.btnhuy.Name = "btnhuy";
             this.btnhuy.Size = new System.Drawing.Size(94, 29);
             this.btnhuy.TabIndex = 6;
@@ -100,7 +95,7 @@
             // 
             // tbmatkhau
             // 
-            this.tbmatkhau.Location = new System.Drawing.Point(222, 182);
+            this.tbmatkhau.Location = new System.Drawing.Point(222, 181);
             this.tbmatkhau.Name = "tbmatkhau";
             this.tbmatkhau.Size = new System.Drawing.Size(335, 27);
             this.tbmatkhau.TabIndex = 8;
@@ -114,67 +109,13 @@
             this.label6.TabIndex = 9;
             this.label6.Text = "Tên đăng nhập";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(102, 248);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 20);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "Loại";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(298, 248);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(245, 20);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "0: Admin, 1: Giảng Viên, 2: Sinh Viên";
-            // 
-            // cbbLoai
-            // 
-            this.cbbLoai.FormattingEnabled = true;
-            this.cbbLoai.Items.AddRange(new object[] {
-            "0",
-            "1",
-            "2"});
-            this.cbbLoai.Location = new System.Drawing.Point(222, 243);
-            this.cbbLoai.Name = "cbbLoai";
-            this.cbbLoai.Size = new System.Drawing.Size(51, 28);
-            this.cbbLoai.TabIndex = 15;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(225, 396);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Quên mật khẩu";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // btndangky
-            // 
-            this.btndangky.Location = new System.Drawing.Point(367, 396);
-            this.btndangky.Name = "btndangky";
-            this.btndangky.Size = new System.Drawing.Size(94, 29);
-            this.btndangky.TabIndex = 17;
-            this.btndangky.Text = "Đăng Ký";
-            this.btndangky.UseVisualStyleBackColor = true;
-            this.btndangky.Click += new System.EventHandler(this.btndangky_Click);
-            // 
-            // Form1
+            // DangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btndangky);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.cbbLoai);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.ClientSize = new System.Drawing.Size(800, 451);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.tbmatkhau);
             this.Controls.Add(this.tbtendangnhap);
@@ -183,7 +124,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "DangNhap";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -200,10 +141,5 @@
         private TextBox tbtendangnhap;
         private TextBox tbmatkhau;
         private Label label6;
-        private Label label4;
-        private Label label5;
-        private ComboBox cbbLoai;
-        private Button button1;
-        private Button btndangky;
     }
 }

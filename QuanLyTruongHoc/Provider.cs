@@ -51,11 +51,11 @@ namespace QuanLyTruongHoc
             }
             catch (SqlException ex)
             {
-                throw ex;
+                throw;
             }
             finally
             {
-                DisConect();
+               DisConect();
             }
             return nRow;
         }

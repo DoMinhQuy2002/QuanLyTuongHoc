@@ -15,23 +15,18 @@ namespace QuanLyTruongHoc
         {
             String dangnhap = tbtendangnhap.Text;
             String matkhau = tbmatkhau.Text;
-            int loai = Convert.ToInt32(cbbLoai.SelectedItem.ToString());
+
 
             int kq = KiemTraDangNhap(dangnhap, matkhau);
-            if(kq == 0 && loai == 0)
+            if(kq == 0)
             {
-                Admin admin = new Admin();
-                admin.Show();
+                QuanLyForm quanLyForm = new QuanLyForm();
+                quanLyForm.Show();
             }
-            else if(kq == 0 && loai == 1)
+            else if(kq == 1)
             {
-                GiangVien giangVien = new GiangVien();
-                giangVien.Show();
-            }
-            else
-            {
-                SinhVien sinhVien = new SinhVien();
-                sinhVien.Show();
+                QuanLyForm quanLyForm = new QuanLyForm();
+                quanLyForm.Show();
             }
         }
 
@@ -63,10 +58,5 @@ namespace QuanLyTruongHoc
             return -1;
         }
 
-        private void btndangky_Click(object sender, EventArgs e)
-        {
-            DangKy dangKy = new DangKy();
-            dangKy.Show();
-        }
     }
 }
