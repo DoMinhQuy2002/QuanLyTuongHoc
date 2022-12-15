@@ -1,0 +1,11 @@
+D:\DoAnNhom03_QLTH\BUS\bin\Debug\BUS.dll
+D:\DoAnNhom03_QLTH\BUS\bin\Debug\BUS.pdb
+D:\DoAnNhom03_QLTH\BUS\bin\Debug\DAO.dll
+D:\DoAnNhom03_QLTH\BUS\bin\Debug\DTO.dll
+D:\DoAnNhom03_QLTH\BUS\bin\Debug\DAO.pdb
+D:\DoAnNhom03_QLTH\BUS\bin\Debug\DTO.pdb
+D:\DoAnNhom03_QLTH\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\DoAnNhom03_QLTH\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\DoAnNhom03_QLTH\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\DoAnNhom03_QLTH\BUS\obj\Debug\BUS.dll
+D:\DoAnNhom03_QLTH\BUS\obj\Debug\BUS.pdb

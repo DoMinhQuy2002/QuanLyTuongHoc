@@ -1,0 +1,10 @@
+D:\DoAnNhom03_QLTH\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+D:\DoAnNhom03_QLTH\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\DoAnNhom03_QLTH\DAO\bin\Debug\DAO.dll
+D:\DoAnNhom03_QLTH\DAO\bin\Debug\DAO.pdb
+D:\DoAnNhom03_QLTH\DAO\bin\Debug\System.Data.SqlClient.dll
+D:\DoAnNhom03_QLTH\DAO\bin\Debug\DTO.dll
+D:\DoAnNhom03_QLTH\DAO\bin\Debug\DTO.pdb
+D:\DoAnNhom03_QLTH\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\DoAnNhom03_QLTH\DAO\obj\Debug\DAO.dll
+D:\DoAnNhom03_QLTH\DAO\obj\Debug\DAO.pdb

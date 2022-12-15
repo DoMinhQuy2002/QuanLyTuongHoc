@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\DoAnNhom03_QLTH\\DAO\\DAO.csproj": {}
+  },
+  "projects": {
+    "D:\\DoAnNhom03_QLTH\\DAO\\DAO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DoAnNhom03_QLTH\\DAO\\DAO.csproj",
+        "projectName": "DAO",
+        "projectPath": "D:\\DoAnNhom03_QLTH\\DAO\\DAO.csproj",
+        "packagesPath": "C:\\Users\\DO MINH QUY\\.nuget\\packages\\",
+        "outputPath": "D:\\DoAnNhom03_QLTH\\DAO\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\DO MINH QUY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\DoAnNhom03_QLTH\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\DoAnNhom03_QLTH\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\DoAnNhom03_QLTH\\DTO\\DTO.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\DoAnNhom03_QLTH\\DTO\\DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "D:\\DoAnNhom03_QLTH\\DTO\\DTO.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "awijCly7HtVUglSFkiwywdWb6VpE/VBD3xuUKH7CPsBYnouexituYiI1AOSixgsxwmHz7sE1H3PnACss00v2tg==",
+  "success": true,
+  "projectFilePath": "D:\\DoAnNhom03_QLTH\\DAO\\DAO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DO MINH QUY\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512"
+  ],
+  "logs": []
+}
