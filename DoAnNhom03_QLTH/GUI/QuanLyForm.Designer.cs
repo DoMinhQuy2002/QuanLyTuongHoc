@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(QuanLyForm));
             this.btnQLGV = new System.Windows.Forms.Button();
             this.btnQLSV = new System.Windows.Forms.Button();
-            this.btnQLPC = new System.Windows.Forms.Button();
+            this.btnQLKQ = new System.Windows.Forms.Button();
             this.btnQLMH = new System.Windows.Forms.Button();
             this.btnQLTK = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -60,18 +60,20 @@
             this.btnQLSV.TabIndex = 3;
             this.btnQLSV.Text = "Quản lý sinh viên";
             this.btnQLSV.UseVisualStyleBackColor = false;
+            this.btnQLSV.Click += new System.EventHandler(this.btnQLSV_Click);
             // 
-            // btnQLPC
+            // btnQLKQ
             // 
-            this.btnQLPC.BackColor = System.Drawing.Color.DarkOrange;
-            this.btnQLPC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQLPC.ForeColor = System.Drawing.Color.White;
-            this.btnQLPC.Location = new System.Drawing.Point(432, 266);
-            this.btnQLPC.Name = "btnQLPC";
-            this.btnQLPC.Size = new System.Drawing.Size(156, 64);
-            this.btnQLPC.TabIndex = 4;
-            this.btnQLPC.Text = "Quản lý phân công";
-            this.btnQLPC.UseVisualStyleBackColor = false;
+            this.btnQLKQ.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnQLKQ.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQLKQ.ForeColor = System.Drawing.Color.White;
+            this.btnQLKQ.Location = new System.Drawing.Point(432, 266);
+            this.btnQLKQ.Name = "btnQLKQ";
+            this.btnQLKQ.Size = new System.Drawing.Size(156, 64);
+            this.btnQLKQ.TabIndex = 4;
+            this.btnQLKQ.Text = "Quản lý kết quả";
+            this.btnQLKQ.UseVisualStyleBackColor = false;
+            this.btnQLKQ.Click += new System.EventHandler(this.btnQLKQ_Click);
             // 
             // btnQLMH
             // 
@@ -108,7 +110,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnQLTK);
             this.Controls.Add(this.btnQLMH);
-            this.Controls.Add(this.btnQLPC);
+            this.Controls.Add(this.btnQLKQ);
             this.Controls.Add(this.btnQLSV);
             this.Controls.Add(this.btnQLGV);
             this.Name = "QuanLyForm";
@@ -120,7 +122,7 @@
         #endregion
         private System.Windows.Forms.Button btnQLGV;
         private System.Windows.Forms.Button btnQLSV;
-        private System.Windows.Forms.Button btnQLPC;
+        private System.Windows.Forms.Button btnQLKQ;
         private System.Windows.Forms.Button btnQLMH;
         private System.Windows.Forms.Button btnQLTK;
     }

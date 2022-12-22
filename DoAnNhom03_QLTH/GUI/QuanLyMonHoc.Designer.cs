@@ -34,7 +34,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.tbMaMH = new System.Windows.Forms.TextBox();
-            this.tbSoChi = new System.Windows.Forms.TextBox();
             this.btnTao = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
@@ -43,8 +42,10 @@
             this.MaMonHoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenMonHoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SoChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tbTenGv = new System.Windows.Forms.TextBox();
+            this.tbTenMH = new System.Windows.Forms.TextBox();
+            this.nudSoChi = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDsMH)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudSoChi)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -96,13 +97,6 @@
             this.tbMaMH.Size = new System.Drawing.Size(269, 22);
             this.tbMaMH.TabIndex = 4;
             // 
-            // tbSoChi
-            // 
-            this.tbSoChi.Location = new System.Drawing.Point(251, 275);
-            this.tbSoChi.Name = "tbSoChi";
-            this.tbSoChi.Size = new System.Drawing.Size(269, 22);
-            this.tbSoChi.TabIndex = 6;
-            // 
             // btnTao
             // 
             this.btnTao.Location = new System.Drawing.Point(98, 386);
@@ -111,6 +105,7 @@
             this.btnTao.TabIndex = 8;
             this.btnTao.Text = "Tạo";
             this.btnTao.UseVisualStyleBackColor = true;
+            this.btnTao.Click += new System.EventHandler(this.btnTao_Click);
             // 
             // btnThoat
             // 
@@ -154,6 +149,7 @@
             this.dgvDsMH.RowTemplate.Height = 24;
             this.dgvDsMH.Size = new System.Drawing.Size(679, 262);
             this.dgvDsMH.TabIndex = 12;
+            this.dgvDsMH.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDsMH_CellClick);
             // 
             // MaMonHoc
             // 
@@ -176,12 +172,19 @@
             this.SoChi.MinimumWidth = 6;
             this.SoChi.Name = "SoChi";
             // 
-            // tbTenGv
+            // tbTenMH
             // 
-            this.tbTenGv.Location = new System.Drawing.Point(251, 226);
-            this.tbTenGv.Name = "tbTenGv";
-            this.tbTenGv.Size = new System.Drawing.Size(269, 22);
-            this.tbTenGv.TabIndex = 13;
+            this.tbTenMH.Location = new System.Drawing.Point(251, 226);
+            this.tbTenMH.Name = "tbTenMH";
+            this.tbTenMH.Size = new System.Drawing.Size(269, 22);
+            this.tbTenMH.TabIndex = 13;
+            // 
+            // nudSoChi
+            // 
+            this.nudSoChi.Location = new System.Drawing.Point(251, 276);
+            this.nudSoChi.Name = "nudSoChi";
+            this.nudSoChi.Size = new System.Drawing.Size(67, 22);
+            this.nudSoChi.TabIndex = 14;
             // 
             // QuanLyMonHoc
             // 
@@ -191,13 +194,13 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1340, 495);
-            this.Controls.Add(this.tbTenGv);
+            this.Controls.Add(this.nudSoChi);
+            this.Controls.Add(this.tbTenMH);
             this.Controls.Add(this.dgvDsMH);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnTao);
-            this.Controls.Add(this.tbSoChi);
             this.Controls.Add(this.tbMaMH);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -207,6 +210,7 @@
             this.Text = "QuanLyMonHoc";
             this.Load += new System.EventHandler(this.QuanLyMonHoc_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDsMH)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudSoChi)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -219,7 +223,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox tbMaMH;
-        private System.Windows.Forms.TextBox tbSoChi;
         private System.Windows.Forms.Button btnTao;
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.Button btnSua;
@@ -228,6 +231,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn MaMonHoc;
         private System.Windows.Forms.DataGridViewTextBoxColumn TenMonHoc;
         private System.Windows.Forms.DataGridViewTextBoxColumn SoChi;
-        private System.Windows.Forms.TextBox tbTenGv;
+        private System.Windows.Forms.TextBox tbTenMH;
+        private System.Windows.Forms.NumericUpDown nudSoChi;
     }
 }

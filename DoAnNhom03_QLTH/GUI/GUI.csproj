@@ -78,11 +78,23 @@
     <Compile Include="QuanLyGiangVien.Designer.cs">
       <DependentUpon>QuanLyGiangVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="QuanLyKetQuaSinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyKetQuaSinhVien.Designer.cs">
+      <DependentUpon>QuanLyKetQuaSinhVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="QuanLyMonHoc.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="QuanLyMonHoc.Designer.cs">
       <DependentUpon>QuanLyMonHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLySinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLySinhVien.Designer.cs">
+      <DependentUpon>QuanLySinhVien.cs</DependentUpon>
     </Compile>
     <Compile Include="QuanLyTaiKhoan.cs">
       <SubType>Form</SubType>
@@ -92,6 +104,12 @@
     </Compile>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhSachGiangVien.resx">
+      <DependentUpon>DanhSachGiangVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhSachSinhVien.resx">
+      <DependentUpon>DanhSachSinhVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -108,8 +126,14 @@
     <EmbeddedResource Include="QuanLyGiangVien.resx">
       <DependentUpon>QuanLyGiangVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyKetQuaSinhVien.resx">
+      <DependentUpon>QuanLyKetQuaSinhVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuanLyMonHoc.resx">
       <DependentUpon>QuanLyMonHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLySinhVien.resx">
+      <DependentUpon>QuanLySinhVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLyTaiKhoan.resx">
       <DependentUpon>QuanLyTaiKhoan.cs</DependentUpon>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BUS;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,18 @@ namespace GUI
         public DanhSachGiangVien()
         {
             InitializeComponent();
+        }
+
+        public void loaddata()
+        {
+            QuanLyGiangVienBUS quanLyGiangVienBUS = new QuanLyGiangVienBUS();
+            DataTable dt = quanLyGiangVienBUS.laytatcagiangvien();
+            dgvDsGv.DataSource = dt;
+        }
+
+        private void dgvDsGv_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            loaddata();
         }
     }
 }

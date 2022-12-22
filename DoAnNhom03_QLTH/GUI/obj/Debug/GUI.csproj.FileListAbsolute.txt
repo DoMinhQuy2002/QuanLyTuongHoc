@@ -20,3 +20,7 @@ D:\DoAnNhom03_QLTH\GUI\obj\Debug\GUI.QuanLyForm.resources
 D:\DoAnNhom03_QLTH\GUI\obj\Debug\GUI.QuanLyTaiKhoan.resources
 D:\DoAnNhom03_QLTH\GUI\obj\Debug\GUI.QuanLyGiangVien.resources
 D:\DoAnNhom03_QLTH\GUI\obj\Debug\GUI.QuanLyMonHoc.resources
+D:\DoAnNhom03_QLTH\GUI\obj\Debug\GUI.QuanLySinhVien.resources
+D:\DoAnNhom03_QLTH\GUI\obj\Debug\GUI.QuanLyKetQuaSinhVien.resources
+D:\DoAnNhom03_QLTH\GUI\obj\Debug\GUI.DanhSachGiangVien.resources
+D:\DoAnNhom03_QLTH\GUI\obj\Debug\GUI.DanhSachSinhVien.resources

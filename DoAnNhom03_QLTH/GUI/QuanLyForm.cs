@@ -34,5 +34,17 @@ namespace GUI
             QuanLyMonHoc quanLyMonHoc = new QuanLyMonHoc();
             quanLyMonHoc.Show();
         }
+
+        private void btnQLSV_Click(object sender, EventArgs e)
+        {
+            QuanLySinhVien quanLySinhVien = new QuanLySinhVien();
+            quanLySinhVien.Show();
+        }
+
+        private void btnQLKQ_Click(object sender, EventArgs e)
+        {
+            QuanLyKetQuaSinhVien quanLyKetQuaSinhVien = new QuanLyKetQuaSinhVien();
+            quanLyKetQuaSinhVien.Show();
+        }
     }
 }
